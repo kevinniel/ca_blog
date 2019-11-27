@@ -121,3 +121,35 @@ ul.footer_links li {
 	display: inline-block;
 	padding: 4px 8px;
 }
+
+/* MIDBLOCK */
+.mid_block {
+	padding: 40px 100px 80px 400px;
+	position: relative;
+}
+
+.mid_block aside {
+	width: 250px;
+	position: absolute;
+	top: 40px;
+	left: 100px;
+}
+
+.mid_block article {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 20px;
+	background-color: red;
+}
+
+.mid_block section {
+}
+
+.mid_block section p:first-child {
+	margin-top: 0;
+}
+
+
+
+
+
