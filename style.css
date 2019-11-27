@@ -11,7 +11,7 @@ body {
 	margin: 0;
 }
 
-/* header */
+/* HEADER */
 header {
 	text-align: center;
 	padding-top: 20px;
@@ -19,6 +19,25 @@ header {
 
 div.logo img {
 	margin: 0 auto;
+}
+
+section.header_title {
+	height: 300px;
+	background-image: url('assets/images/nasa.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.header_title h1 {
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+	padding: 110px 0;
+	text-transform: uppercase;
+	/*text-shadow: rgba(250, 250, 250, 0.4) 0px 1px 9px;*/
+	color: #FFF;
 }
 
 /* MENU */
@@ -35,6 +54,10 @@ nav a, nav a:visited {
 	text-transform: uppercase;
 	padding: 20px 15px;
 	font-size: 22px;
+}
+
+ul.niv_1 {
+	margin-bottom: 0;
 }
 
 ul.niv_1 > li {
@@ -81,6 +104,7 @@ footer {
 	width: 100%;
 	height: 20px;
 	padding: 20px 100px 20px 100px;
+	background-color: #FFF;
 }
 
 footer .right {
