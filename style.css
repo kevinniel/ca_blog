@@ -139,7 +139,35 @@ ul.footer_links li {
 	width: 250px;
 	height: 250px;
 	margin-bottom: 20px;
-	background-color: red;
+	position: relative;
+	box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mid_block article div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #FFf;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+.mid_block article div span {
+	display: block;
+}
+
+.mid_block article div span.title {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.mid_block article div span.date {
+	font-size: 11px;
+	font-style: italic;
 }
 
 .mid_block section {
