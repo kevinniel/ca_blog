@@ -256,3 +256,23 @@ ul.footer_links li {
 	text-align: center;
 	color: #FFF;
 }
+
+h2.slider_title {
+	font-weight: 400;
+	font-size: 28px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	position: relative;
+	text-align: center;
+}
+
+h2.slider_title:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "";
+	background-color: #AE831D;
+	width: 75px;
+	height: 2px;
+}
