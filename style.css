@@ -106,6 +106,7 @@ footer {
 	height: 20px;
 	padding: 20px 100px 20px 100px;
 	background-color: #FFF;
+	z-index: 10000000000;
 }
 
 footer .right {
@@ -237,9 +238,19 @@ ul.footer_links li {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.slider .swiper-slide .image {
+	width: auto;
+	height: 250px;
+	position: relative;
+}
 
-
-
-
-
+.slider .swiper-slide .image span {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+	color: #FFF;
+}
 
