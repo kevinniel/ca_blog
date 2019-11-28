@@ -125,8 +125,9 @@ ul.footer_links li {
 
 /* MIDBLOCK */
 .mid_block {
-	padding: 40px 100px 80px 400px;
+	padding: 40px 100px 0 400px;
 	position: relative;
+	margin-bottom: 80px;
 }
 
 .mid_block aside {
@@ -134,6 +135,7 @@ ul.footer_links li {
 	position: absolute;
 	top: 40px;
 	left: 100px;
+	padding-bottom: 80px;
 }
 
 .mid_block a {
@@ -190,6 +192,54 @@ ul.footer_links li {
 	padding-bottom: 5px;
 }
 
+.mid_block section {
+	/*background-color: red;*/
+	padding: 10px 20px;
+}
+
+.mid_block section p {
+	font-size: 18px;
+	text-align: justify;
+}
+
 .mid_block section p:first-child {
 	margin-top: 0;
 }
+
+.citation {
+	margin: 80px 0;
+	font-size: 48px;
+	padding: 20px 40px 20px 70px;
+	text-align: center;
+}
+
+.citation blockquote {
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+}
+
+.citation blockquote:before {
+	position: absolute;
+	top: -340px;
+	left: -90px;
+	content: "«";
+	font-size: 450px;
+	transform: rotate(30deg);
+	color: #AE831D;
+}
+
+.citation span {
+	display: block;
+	text-align: right;
+	font-size: 16px;
+	color: #AE831D;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
