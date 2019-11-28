@@ -242,6 +242,9 @@ ul.footer_links li {
 	width: auto;
 	height: 250px;
 	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .slider .swiper-slide .image span {
@@ -253,4 +256,3 @@ ul.footer_links li {
 	text-align: center;
 	color: #FFF;
 }
-
