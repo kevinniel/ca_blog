@@ -99,6 +99,7 @@ nav a, nav a:visited {
 
 ul.niv_1 {
 	margin-bottom: 0;
+	padding-left: 0;
 }
 
 ul.niv_1 > li {
@@ -330,10 +331,47 @@ h2.slider_title:after {
   100% {left: 100%;}
 }
 
+@media only screen and (max-width: 1024px) {
+	footer {
+		position: relative;
+		left: inherit;
+		bottom: inherit;
+		padding: 20px 100px;
+		width: auto;
+		height: inherit;
+	}
+
+	footer .right {
+		top: 20px;
+		right: 100px;
+	}
+
+	ul.footer_links {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.footer_links li {
+		padding: 0 8px;
+	}
+}
+
 
 @media only screen and (max-width: 768px) {
 	ul.rs {
 		right: 50px;
+	}
+
+	footer {
+		padding: 20px 50px;
+	}
+
+	footer .right {
+		right: 50px;
+	}
+
+	section.header_title h1 {
+		padding: 20px;
 	}
 }
 
@@ -343,8 +381,50 @@ h2.slider_title:after {
 		top: inherit;
 		right: inherit;
 	}
+
+	section.header_title h1 {
+		font-size: 30px;
+	}
+
 }
 
+@media only screen and (max-width: 500px) {
+	footer .right	{
+		position: inherit;
+		top: inherit;
+		right: inherit;
+		margin-top: 10px;
+	}
+
+	footer {
+		text-align: center;
+		font-size: 12px;
+	}
+
+	nav a, nav a:visited {
+		font-size: 16px;
+		padding: 12px 15px;
+	}
+
+	ul.niv_1 > li {
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+
+	ul.niv_1 > li:hover ul.niv_2 {
+		display: none;
+	}
+
+	ul.niv_2 {
+		/*display: inherit;*/
+		position: inherit;
+		left: inherit;
+		top: inherit;
+		box-shadow: none;
+		margin-left: 30px;
+		border-left: 2px solid #000;
+	}
+}
 
 
 

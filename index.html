@@ -48,7 +48,7 @@
             <a href="index.html" title="Accueil">Accueil</a>
           </li>
           <li>
-            <a href="#" title="Catégories">Catégories</a>
+            <a id="click" href="#" title="Catégories">Catégories</a>
             <!-- sous liste à puce -->
             <ul class="niv_2">
               <li>
@@ -225,6 +225,21 @@
         },
         spaceBetween: 10,
       })
-      </script>
+    </script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#click').on('click', function(event){
+          event.preventDefault();
+          $('ul.niv_2').slideToggle();
+        })
+      });
+    </script>
+
   </body>
 </html>
