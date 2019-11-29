@@ -354,6 +354,49 @@ h2.slider_title:after {
 	ul.footer_links li {
 		padding: 0 8px;
 	}
+
+	.mid_block {
+		padding: 40px 100px;
+	}
+
+	.mid_block aside {
+		width: auto;
+		padding-bottom: 0;
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		margin-top: 40px;
+		padding-top: 40px;
+		border-top: 1px solid rgba(0,0,0,0.1);
+		text-align: center;
+	}
+
+	.mid_block a {
+		display: inline-block;
+		margin: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	.citation {
+		font-size: 30px;
+	}
+
+	.citation span {
+		font-size: 13px;
+	}
+
+	.citation blockquote {
+		margin: 0;
+	}
+
+	.citation blockquote:before {
+		font-size: 300px;
+		top: -230px;
+		left: -110px;
+	}
+
 }
 
 
@@ -372,6 +415,10 @@ h2.slider_title:after {
 
 	section.header_title h1 {
 		padding: 20px;
+	}
+
+	.mid_block {
+		padding: 40px 50px;
 	}
 }
 
@@ -416,7 +463,6 @@ h2.slider_title:after {
 	}
 
 	ul.niv_2 {
-		/*display: inherit;*/
 		position: inherit;
 		left: inherit;
 		top: inherit;
@@ -424,9 +470,29 @@ h2.slider_title:after {
 		margin-left: 30px;
 		border-left: 2px solid #000;
 	}
+
+	.mid_block {
+		padding: 0;
+	}
+
+	.citation blockquote:before {
+		font-size: 200px;
+		top: -150px;
+		left: -50px;
+	}
+
 }
 
+@media only screen and (max-width: 400px) {
+	.citation {
+		padding: 0;
+		margin: 40px 0;
+	}
 
+	.citation blockquote:before {
+		display: none;
+	}
+}
 
 
 

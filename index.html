@@ -77,52 +77,6 @@
 
     <!-- bloc du milieu -->
     <div class="mid_block">
-      <!-- bloc de gauche -->
-      <aside>
-        <!-- bloc article -->
-        <a href="#" style="background-image: url('assets/images/bitcoin.jpg');">
-          <div>
-            <!-- titre -->
-            <span class="title">article 1</span>
-            <!-- date -->
-            <span class="date">20/11/2019</span>
-            <span class="txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. <br />
-              Lire la suite ...
-            </span>
-          </div>
-        </a>
-        <!-- bloc article -->
-        <a href="#" style="background-image: url('assets/images/ca.jpg');">
-          <div>
-            <!-- titre -->
-            <span class="title">article 2</span>
-            <!-- date -->
-            <span class="date">23/11/2019</span>
-            <span class="txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. <br />
-              Lire la suite ...
-            </span>
-          </div>
-        </a>
-        <!-- bloc article -->
-        <a href="#" style="background-image: url('assets/images/course.jpg');">
-          <div>
-            <!-- titre -->
-            <span class="title">article 3</span>
-            <!-- date -->
-            <span class="date">26/11/2019</span>
-            <span class="txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. <br />
-              Lire la suite ...
-            </span>
-          </div>
-        </a>
-      </aside>
-
       <!-- bloc de droite -->
       <section>
         <div class="txt_intro">
@@ -190,6 +144,52 @@
           </div>
         </div>
       </section>
+
+      <!-- bloc de gauche -->
+      <aside>
+        <!-- bloc article -->
+        <a href="#" style="background-image: url('assets/images/bitcoin.jpg');">
+          <div>
+            <!-- titre -->
+            <span class="title">article 1</span>
+            <!-- date -->
+            <span class="date">20/11/2019</span>
+            <span class="txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. <br />
+              Lire la suite ...
+            </span>
+          </div>
+        </a>
+        <!-- bloc article -->
+        <a href="#" style="background-image: url('assets/images/ca.jpg');">
+          <div>
+            <!-- titre -->
+            <span class="title">article 2</span>
+            <!-- date -->
+            <span class="date">23/11/2019</span>
+            <span class="txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. <br />
+              Lire la suite ...
+            </span>
+          </div>
+        </a>
+        <!-- bloc article -->
+        <a href="#" style="background-image: url('assets/images/course.jpg');">
+          <div>
+            <!-- titre -->
+            <span class="title">article 3</span>
+            <!-- date -->
+            <span class="date">26/11/2019</span>
+            <span class="txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. <br />
+              Lire la suite ...
+            </span>
+          </div>
+        </a>
+      </aside>
     </div>
 
     <!-- footer -->
@@ -224,6 +224,17 @@
           delay: 5000,
         },
         spaceBetween: 10,
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          450: {
+            slidesPerView: 2,
+          },
+          700: {
+            slidesPerView: 3,
+          },
+        }
       })
     </script>
 
